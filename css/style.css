@@ -20,6 +20,25 @@ header ul {
   display: inline;
 }
 
+header ul li{
+    display: inline-block;
+    margin: 10px;
+    font-size: larger;
+    text-decoration: none;
+}
+
+
+header ul li a{
+  text-decoration: none;
+  color:aliceblue;
+  transition: transform 0.3s ease;
+}
+
+header ul li a:hover{
+  text-decoration:  underline;
+
+}
+
 .section {
   color: white;
   text-align: center;
