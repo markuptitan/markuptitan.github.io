@@ -9,35 +9,27 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="/node_modules/aos/dist/aos.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Welcome - Markuptitan</title>
   </head>
   <body>
-    <header>
-      <nav>
+    <header data-aos="fade-down"
+    data-aos-duration="1500">
+      <nav >
         <ul>
-          <li><a href="#about-me">About</a></li>
-          <li><a href="#biography">Biography</a></li>
-          <li><a href="#skills">Skills</a></li>
-          <li><a href="#projects"></a></li>
-          <li><a href="#contact">Contact Me</a></li>
+          <li><a href="/about-me">About</a></li>
+          <li><a href="/skills">Skills</a></li>
+          <li><a href="/projects">Projects</a></li>
+          <li><a href="/contact">Contact Me</a></li>
           <li></li>
           <li></li>
         </ul>
       </nav>
     </header>
-    <section id="about-me" class="section">
-      <h1 class="ubuntu-bold">About Me</h1>
-      <p>
-        Having grown my passion to land a Web Development job and showcase my
-        creative and analytical thinking skills, I am looking to enhance my
-        skills towards being a Full Stack Web Developer through the Umuzi 12
-        month learnership programm.
-      </p>
-    </section>
-    <section class="section" id="biography">
-      <h1>Biography</h1>
-      <p></p>
-    </section>
+    <script src="/node_modules/aos/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
