@@ -1,0 +1,4 @@
+node_modules/class*
+node_modules/lodash*
+node_modules/*json
+*json
